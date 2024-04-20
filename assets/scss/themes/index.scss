@@ -1,0 +1,43 @@
+@import 'dark/dark';
+@import 'light/light';
+@import 'cyan/cyan';
+
+:root {
+  // Colors
+  --primary: #F53FA1;
+  --secondary: #00b2ff;
+  --white: #fff;
+  --black: #0F151A;
+  --disabled: var(--primary-2);
+
+  --primary-1: #4C1432;
+  --primary-2: #6C1C42;
+  --primary-3: #8C244F;
+  --primary-4: #AC2C5C;
+  --primary-5: #CC3469;
+  --primary-6: #EC3C76;
+
+
+  --secondary-1: #004D5F;
+  --secondary-2: #006D7A;
+  --secondary-3: #008D95;
+  --secondary-4: #00ADAF;
+  --secondary-5: #00CDCB;
+  --secondary-6: #00EDE6;
+
+  //background
+  --background: var(primary-6);
+  --background-25: opacity(var(--background), 0.25);
+  --background-50: opacity(var(--background), 0.5);
+  --background-75: opacity(var(--background), 0.75);
+
+  //text
+  --text: #fff;
+
+  // Borders
+  --borderRadius: 2.25rem;
+
+  // Shadows
+  --shadow: var(--primary-3);
+
+}

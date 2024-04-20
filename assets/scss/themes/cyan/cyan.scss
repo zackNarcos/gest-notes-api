@@ -1,0 +1,39 @@
+html[data-theme='cyan'] {
+  // Colors
+  --primary: #004D5F;
+  --secondary: #00CDCB;
+  --white: #fff;
+  --black: #0F151A;
+  --disabled: var(--primary-2);
+  --danger: #FF0000;
+
+  --primary-1: #002D3F;
+  --primary-2: #004D5F;
+  --primary-3: #006D7A;
+  --primary-4: #008D95;
+  --primary-5: #00ADAF;
+  --primary-6: #00CDCB;
+
+
+  --secondary-1: #004D5F;
+  --secondary-2: #006D7A;
+  --secondary-3: #008D95;
+  --secondary-4: #00ADAF;
+  --secondary-5: #00CDCB;
+  --secondary-6: #00EDE6;
+
+  //background
+  --background: #001f28;
+  --background-25: opacity(var(--background), 0.25);
+  --background-50: opacity(var(--background), 0.5);
+  --background-75: opacity(var(--background), 0.75);
+
+  //text
+  --text: #fff;
+
+  // Borders
+  --borderRadius: 2.25rem;
+
+  // Shadows
+  --shadow: var(--primary-3);
+}

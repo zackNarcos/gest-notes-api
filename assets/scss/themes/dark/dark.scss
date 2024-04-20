@@ -1,0 +1,20 @@
+html[data-theme='dark'] {
+  // Colors
+  --primary: #8c00c4;
+  --secondary: #00f1ad;
+  --white: #525252;
+  --black: #fff;
+  --disabled: #28292a;
+
+  //text
+  --text: #fff;
+  --text-50: rgba(255, 255, 255, 0.51);
+  --text-25: rgba(255, 255, 255, 0.25);
+  --text-10: rgba(255, 255, 255, 0.1);
+
+  // Borders
+  --borderRadius: 2.25rem;
+
+  // Shadows
+  --shadow: rgba(255, 255, 255, 0.25);
+}
